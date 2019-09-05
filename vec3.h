@@ -1,9 +1,4 @@
-//
-// Created by PD on 8/31/19.
-//
-
-#ifndef RT1_VEC3_H
-#define RT1_VEC3_H
+#pragma once
 
 #include <iostream>
 #include <math.h>
@@ -144,5 +139,3 @@ inline vec3 unit_vector(vec3 v) {
     return v / v.length();
 }
 
-
-#endif //RT1_VEC3_H

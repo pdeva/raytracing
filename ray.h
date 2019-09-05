@@ -1,9 +1,4 @@
-//
-// Created by PD on 8/31/19.
-//
-
-#ifndef RT1_RAY_H
-#define RT1_RAY_H
+#pragma once
 #include "vec3.h"
 
 class ray
@@ -18,4 +13,3 @@ public:
     vec3 A;
     vec3 B;
 };
-#endif //RT1_RAY_H
